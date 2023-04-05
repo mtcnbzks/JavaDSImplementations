@@ -45,6 +45,14 @@ public class QueueLLImplementation<T> {
       size--;
    }
 
+   public T peek() {
+      if (this.head == null) {
+         return null;
+      }
+      return this.head.data;
+   }
+
+
    void print() {
       Node<T> temp = this.head;
 
