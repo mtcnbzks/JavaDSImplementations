@@ -167,7 +167,7 @@ public class DoublyLinkedList {
   public void print() {
     DoublyLinkedListNode current = head;
     while (current != null) {
-      System.out.printf("(%d,%d), ", current.getData(), current.getColumnIndex());
+      System.out.printf("%d, ", current.getData());
       current = current.getNext();
 
     }
