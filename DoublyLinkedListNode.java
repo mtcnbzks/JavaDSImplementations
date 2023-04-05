@@ -6,20 +6,11 @@ public class DoublyLinkedListNode {
   private int data;
   private DoublyLinkedListNode next;
 
-  private int columnIndex;
 
   public DoublyLinkedListNode(DoublyLinkedListNode previous, int data, DoublyLinkedListNode next) {
     this.previous = previous;
     this.data = data;
     this.next = next;
-  }
-
-  public int getColumnIndex() {
-    return columnIndex;
-  }
-
-  public void setColumnIndex(int columnIndex) {
-    this.columnIndex = columnIndex;
   }
 
   public DoublyLinkedListNode getPrevious() {
