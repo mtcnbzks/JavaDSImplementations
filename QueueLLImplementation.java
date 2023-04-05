@@ -59,9 +59,9 @@ public class QueueLLImplementation<T> {
       Node<T> temp = this.head;
 
       while (temp != null) {
-         System.out.printf("%d > ", temp.data);
+         System.out.printf("%s > ", temp.data);
          temp = temp.next;
       }
-      System.out.printf("null\n");
+      System.out.print("null\n");
    }
 }
