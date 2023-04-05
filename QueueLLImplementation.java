@@ -31,18 +31,20 @@ public class QueueLLImplementation<T> {
       size++;
    }
 
-   void dequeue() {
+   T dequeue() {
       if (this.head == null) {
-         return;
+         return null;
       }
 
-      // Node<T> temp = this.head;
+      T temp = this.head.data;
       this.head = this.head.next;
 
       if (this.head == null) {
          this.tail = null;
       }
       size--;
+
+      return temp;
    }
 
    public T peek() {
