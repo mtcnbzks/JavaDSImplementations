@@ -3,7 +3,6 @@ package DSImplementations;
 import java.util.NoSuchElementException;
 
 public class BinarySearchTree {
-   // TODO: write delete method
 
    static class Node {
       int data;
