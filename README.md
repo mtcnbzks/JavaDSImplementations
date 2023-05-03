@@ -5,7 +5,9 @@ This Java project is a collection of various data structure implementations, aim
 - Doubly Linked List
 - Singly Linked List
 - Stack (Linked List implementation)
+- Stack (Array implementation)
 - Queue (Linked List implementation)
+- Queue (Array implementation)
 - Binary Search Tree Implementation
 
 Additional data structures will be added in the future to further expand the project's utility.
