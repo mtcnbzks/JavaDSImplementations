@@ -72,10 +72,10 @@ public class SinglyLinkedListImplementation {
    }
 
    public void print() {
-      Node last = head;
-      while (last != null) {
-         System.out.print(last.data + " > ");
-         last = last.next;
+      Node current = head;
+      while (current != null) {
+         System.out.print(current.data + " > ");
+         current = current.next;
       }
       System.out.print("null\n");
    }
