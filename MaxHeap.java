@@ -19,6 +19,7 @@ public class MaxHeap<T extends Comparable<T>> {
       ensureCapacity();
       heap[size] = data;
 
+      // heapifyUp();
       int current = size;
       while (heap[current].compareTo(heap[getParentIndex(current)]) > 0) {
          swap(current, getParentIndex(current));
@@ -64,7 +65,7 @@ public class MaxHeap<T extends Comparable<T>> {
 
       int largest = index;
 
-      if (left < size && heap[left].compareTo(heap[index]) > 0) {
+      if (left < size && heap[left].compareTo(heap[largest]) > 0) {
          largest = left;
       }
 
