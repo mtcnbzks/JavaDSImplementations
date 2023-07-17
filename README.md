@@ -15,8 +15,3 @@ data structures:
 - Binary Search Tree Implementation
 
 Additional data structures will be added in the future to further expand the project's utility.
-
-## Getting Started
-
-To use this project, simply clone the repository or download the source code files. Then, you can import the project
-into your preferred Java IDE or run the code from the command line.
